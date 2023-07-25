@@ -1,16 +1,25 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
+
+<div class="intro">
+  <p class="intro-message">Welcome to my website!</p>
+  <img src="public/favicon-310.png" class="headshot">
+</div>
 
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
+    {% if post.imagepath %}
+      <img src="{{ site.url }}{{ site.baseurl }}{{post.imagepath}}">
+    {% endif %}
     <h1 class="post-title">
-      {{ post.title }}
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
     </h1>
-
-    {{ post.content }}
+    {{ post.subtitle }}
   </div>
   {% endfor %}
 </div>
