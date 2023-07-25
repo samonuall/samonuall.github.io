@@ -51,6 +51,23 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+/* 
+  New stuff I added for styling
+*/
+.intro {
+  font-family: 'Noto Sans', 'Noto CJK';
+  height: 200px;
+}
+
+.headshot {
+  height: 200px;
+  float: right;
+}
+
+.intro-message {
+  float: left;
+}
+
 
 /*
  * Wrapper
@@ -64,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
 }
-
 
 /*
  * Container
