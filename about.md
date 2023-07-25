@@ -9,10 +9,10 @@ title: About
 - ~~Make sidebar open on website open~~
 - Contact info with icons
 - ~~Link to resume that opens as a pdf in a different page and can be downloaded~~
-- Create projects page -> similar to Ryan's
-    - ML project + blog type post with it
-    - AI traffic light project + description of how its going
-    - BUILD UMass project + blog post
+- ~~Create projects page -> similar to Ryan's~~
+    - ~~ML project + blog type post with it~~
+    - ~~h311 project~~
+    - ~~BUILD UMass project + blog post~~
 
 ### Wants
 
