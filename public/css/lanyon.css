@@ -57,11 +57,12 @@ h1, h2, h3, h4, h5, h6 {
 .intro {
   font-family: 'Noto Sans', 'Noto CJK';
   height: 300px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
 
 .headshot {
-  height: 400px;
-  float: right;
+  height: 350px;
 }
 
 .intro-message {
@@ -130,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
   color: #505050;
 }
 .masthead-title a {
