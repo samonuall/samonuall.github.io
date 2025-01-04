@@ -3,35 +3,13 @@ layout: default
 title: Projects
 ---
 
-<div class="intro">
-  <img src="public/square_headshot.jpg" class="headshot">
+<div class="loading-container">
+  <div class="loading-spinner"></div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<h1 style="font-size: 36px;">Welcome</h1>
-<p>I'm a computer science and economics student at the University of Massachusetts Amherst. I am interested in machine learning / AI, and am working on some projects to learn more. I made this personal website to show off some projects I have worked on during my time at college, I hope you enjoy! </p>
-<br>
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    {% if post.imagepath %}
-      <img src="{{ site.url }}{{ site.baseurl }}{{post.imagepath}}" height="200px" width="200px">
-    {% endif %}
-    <h1 class="post-title">
-      {% if post.external_link %}
-        <a href="{{post.external_link}}">
-          {{ post.title }}
-        </a>
-      {% else %}
-        <a href="{{ post.url | absolute_url }}">
-          {{ post.title }}
-        </a>
-      {% endif %}
-    </h1>
-    {{ post.subtitle }}
-  </div>
-  {% endfor %}
-</div>
+<script>
+  // Wait for a brief moment to show the loading animation
+  setTimeout(function() {
+    window.location.href = 'https://samonuallain.vercel.app';
+  }, 1500); // Redirects after 1.5 seconds
+</script>
